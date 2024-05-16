@@ -15,20 +15,21 @@
    + 상품 삭제 : delete /api/products/:productsId
 
 ##3. 폴더 구조
-+.
-+├── node_modules // Git에는 올라가지 않습니다.
-+├── src
-+│   ├── middlewarmies
-+│   │   └── error-handler.middleware.js
-+│   ├── routers
-+│   │   └── products.router.js
-+│   ├── schemas
-+│   │   ├── index.js
-+│   │   └── product.schema.js
-+│   └── app.js
-+├── .env // Git에는 올라가지 않습니다.
-+├── .gitignore
-+├── .prettierrc
-+├── package.json
-+├── README.md
-+└── yarn.lock // npm을 사용하면 package-lock.json
+- .
+- ├── node_modules // Git에는 올라가지 않습니다.
+- ├── src
+- │   ├── middlewarmies
+- │   │   └── error-handler.middleware.js
+- │   ├── routers
+- │   │   └── products.router.js
+- │   ├── schemas
+- │   │   ├── index.js
+- │   │   └── product.schema.js
+- │   └── app.js
+- ├── .env // Git에는 올라가지 않습니다.
+- ├── .gitignore
+- ├── .prettierrc
+- ├── package.json
+- ├── README.md
+- └── yarn.lock
+
